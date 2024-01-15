@@ -27,7 +27,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v4.0.0
         with:
-          context: ./prometheus
-          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          context: ./'prometheus'
+          platforms: 'linux/amd64,linux/arm64,linux/arm/v7'
           push: true
           tags: ghcr.io/danopstech/prometheus:latest
