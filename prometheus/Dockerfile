@@ -1,2 +1,2 @@
-FROM prom/prometheus:v2.49.1
+FROM prom/prometheus:v2.50.0
 LABEL org.opencontainers.image.source = "https://github.com/danopstech/containers"
